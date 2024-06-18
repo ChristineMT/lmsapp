@@ -25,6 +25,23 @@
     <form id="logout-form">
         <button type="submit">Logout</button>
     </form>
+    
+    <div id="course-selection" style="display:none;">
+        <h2>Select Your Courses</h2>
+        <form id="course-form">
+            <label><input type="checkbox" name="courses" value="Course 1"> Course 1</label><br>
+            <label><input type="checkbox" name="courses" value="Course 2"> Course 2</label><br>
+            <label><input type="checkbox" name="courses" value="Course 3"> Course 3</label><br>
+            <label><input type="checkbox" name="courses" value="Course 4"> Course 4</label><br>
+            <button type="submit">Save Courses</button>
+        </form>
+    </div>
+
+    <div id="selected-courses" style="display:none;">
+        <h2>Your Selected Courses</h2>
+        <ul id="courses-list"></ul>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
